@@ -1,17 +1,17 @@
 /*
     Name: sunghwan kwon
-    Num: 156028177
+    ID: skwon25
     Heroku Link: 
     
 */
 
-var HTTP_PORT = process.env.PROT || 8080;
+var HTTP_PORT = process.env.PROT || 3000;
 var express = require("express");
 var app = express();
-~
+
 
 app.get("/", (req,res)=>{
-    res.send("Sunghwan Kwon, 156028177");
+    res.send("Sunghwan Kwon, skwon25");
 });
 
 app.listen(HTTP_PORT);
