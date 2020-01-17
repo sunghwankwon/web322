@@ -2,18 +2,19 @@
     This is solely my work.
     Name: sunghwan kwon
     ID: skwon25
-    Heroku Link: https://git.heroku.com/guarded-bayou-54854.git
+    Heroku Link: 
     
 */
 
-var HTTP_PORT = process.env.PROT || 8080;
+
+var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
 var app = express();
 
-app.get("/", (req,res)=>{
-    res.send("Sunghwan Kwon, skwon25");
+// setup a 'route' to listen on the default url path
+app.get("/", (req, res) => {
+    res.send("SunghwanKwon,skwon25");
 });
 
+// setup http server to listen on HTTP_PORT
 app.listen(HTTP_PORT);
-
-//git init means that creates local repository
