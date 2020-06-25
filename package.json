@@ -4,7 +4,12 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-validator": "^6.5.0",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.9.19",
+    "nodemailer": "^6.4.10"
   },
   "devDependencies": {},
   "scripts": {

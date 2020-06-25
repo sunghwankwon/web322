@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- Latest compiled and minified Bootstrap 3.3.7 CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="/css/site.css">
+      <title>Home</title>
+      <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+
+  </head>
+ <body class = "main">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          	<a href="/" target="_blank"><img class = "logo" src="/images/logo.png" alt="logo Image1"></a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navName">
+          <ul class="nav navbar-nav">
+            {{#navLink "/"}}Home{{/navLink}}
+            {{#navLink "/package"}}Package{{/navLink}}
+
+            
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            {{#navLink "log-in"}}log-in{{/navLink}}
+            {{#navLink "/registeration"}}Sign-up{{/navLink}}
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        {{{body}}} 
+    </div>
+
+    <!-- Latest compiled and minified jQuery 3.2.1 JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified Bootstrap 3.3.7 JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+
+  <footer>
+  <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+About Livefit</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Affiliates</a>
+          </li>
+          <li>
+            <a href="#!">Gift Card</a>
+          </li>
+          <li>
+            <a href="#!">Student Discount</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Help & Support</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">FAQ</a>
+          </li>
+          <li>
+            <a href="#!">Terms & Conditions</a>
+          </li>
+          <li>
+            <a href="#!">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Our Menu</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Meal Packages</a>
+          </li>
+          <li>
+            <a href="#!">Individual Meals</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Livefit App</h5>
+
+        <ul class="list-unstyled">
+          <li>
+             <a href="https://livefitfood.ca/pages/app" target="_blank">
+                                <img src="/images/android.png.webp" alt="item Image1"></a>
+                                 <a href="https://livefitfood.ca/pages/app" target="_blank">
+                                <img src="/images/apple.png.webp" alt="item Image1"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div><div></div><div>email: skwon25@myseneca.ca</div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+     SugnwhanKwon (156028177)
+  </div>
+</footer>
+</html>

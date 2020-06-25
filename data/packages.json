@@ -1,0 +1,4 @@
+[{"id":1,"title":"Weight Loss","image":"/images/1.png","info":"HHigh protein, low-calorie meals with a nutrient profile tuned for weight loss","price":"from $145"},
+    {"id":2,"title":"Muscle Gain","image":"/images/2.png","info":"Higher protein and calorie portions to support your muscle gain momentum","price":"from $159"},
+    {"id":3,"title":"Keto","image":"/images/3.png","info":"High fat, low carb meals with moderate protein to achieve and sustain ketosis","price":"from $117"},
+    {"id":4,"title":"Fat Burner","image":"/images/4.png","info":"Low carb, nutrient-rich meals with fat-burning profiles to support fat loss","price":"from $129"}]

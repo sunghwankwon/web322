@@ -1,0 +1,30 @@
+
+<div id = "subheader"> 
+  <h1>Meal and glocery delivered</h2>
+</div>
+      <div class="row">
+
+
+
+      </div>
+
+      <div class="row">
+
+    </div>
+    <h2>Value Package</h2>
+      <div class="row">
+
+
+{{#each packages}}
+<div class ="box">
+        <div id = "item"><a href="/" target="_blank"><img id = "pic" src={{image}} alt="item Image1"></a></div>
+<h1 id ="itemName"> {{title}}</h1>
+<p id = "info"> {{info}}</p>
+<p id ="price">{{price}}</p>
+
+    </div>
+      {{else}}
+       <strong>No Meal Available</strong>
+   {{/each}}
+</div>
+
