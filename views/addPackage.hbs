@@ -1,0 +1,55 @@
+<div class="row">
+    <div class="col-md-12">
+
+        <h2>Add Package</h2>
+        <hr />
+
+        <form method="post" action="/package/add">
+
+            <fieldset>
+                <legend>Package Information</legend>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="title">Title:</label>
+                            <input class="form-control" id="title" name="title" type="text" />
+                        </div>
+                    </div>
+ 
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="image">Image File:</label>
+                          <input class="form-control" id="imageFile" name="imageFile" type="file" accept=".gif, .jpg, .png" />
+                      </div>
+                  </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="info">Info:</label>
+                            <input class="form-control" id="info" name="info" type="text" />
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="price">Price:</label>
+                            <input class="form-control" id="price" name="price" type="text"  />
+                        </div>
+                    </div>
+                </div>
+
+
+            </fieldset>
+
+            <hr />
+
+            <input type="submit" class="btn btn-primary pull-right" value="Add Package" /><br /><br /><br />
+
+        </form>
+    </div>
+</div>
+ <div id = "err"> {{#if errorMessage}}<div class="alert alert-danger"> <strong>Error:</strong> {{errorMessage}}</div>{{/if}}</div>
