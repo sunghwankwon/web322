@@ -1,0 +1,37 @@
+      <div class="row">
+
+<div class ="desc">
+        <div id = "descPic"><img id = "dpic" src={{viewData.packages.image}} alt="item Image1"></div>
+</div>
+<div class ="DescBox">
+<span id ="itemName2"> {{viewData.packages.title}}</span>
+<span id = "info2"><p>${{viewData.packages.price}}</p></span>
+        <label id = "amountPack">How many meals did you want in your package?</label>
+        <select class="form-control">
+            <option value="1">10 Meals</option>
+            <option value="2">11 Meals</option>
+            <option value="3">12 Meals</option>
+            <option value="4">13 Meals</option>
+            <option value="5">14 Meals</option>
+            <option value="6">15 Meals</option>
+            <option value="7">16 Meals</option>
+            <option value="8">17 Meals</option>
+            <option value="9">18 Meals</option>
+            <option value="10">19 Meals</option>
+            <option value="11">20 Meals</option>
+            <option value="12">21 Meals</option>
+            <option value="13">22 Meals</option>
+            <option value="14">23 Meals</option>
+            <option value="15">24 Meals</option>
+            <option value="16">25 Meals</option>
+        </select>
+<p id = "info2"> How would you like to add 2oz extra protain to each meal?</p>
+<p id = "info2"> Did you want to add snacks to your package?</p>
+<div class="number">
+<button onclick="Decreasing">-</button></a>
+<span id="numberUpDown">1</span>
+<button onclick="Increasing">+</button></a>
+<button onclick="addOrder">Add to order</button></a>
+</div>
+<p id = "info2"> {{viewData.packages.info}}</p>
+    </div>

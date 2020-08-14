@@ -1,0 +1,67 @@
+<div class="row">
+    <div class="box1">
+
+<legend>Create Account</legend>
+<br /><br />   
+                            <div class="logos">
+                                <a href="https://www.facebook.com" target="_blank">
+                                <img src="/images/facebook-2429746_640.png" alt="item Image1"></a>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                <img src="/images/instagram-3814080_640.png" alt="item Image2"></a>
+                                <a href="https://twitter.com/" target="_blank">
+                                <img src="/images/twitter-667462_640.png" alt="item Image3"></a>
+                                <a href="https://accounts.google.com/signin" target="_blank">
+                                <img src="/images/google-plus-940316_640.png" alt="item Image4"></a>
+                            </div><div>
+
+
+        {{#unless successMessage}}
+        <form method="post" action="/register">
+        <fieldset>
+
+                            <legend id = "midpart">Or</legend>
+                            <div class="row">
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="firstName">First Name</label>
+                                        <input class="form-control" id="firstName" name="firstName" type="text" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class= "row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="last_name">Last Name</label>
+                                        <input class="form-control" id="lastName" name="lastName" type="text" required  />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input class="form-control" id="email" name="email" type="email" required value="{{userEmail}}" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="Password">Password</label>
+                                        <input class="form-control" id="password" name="password" type="Password" required/>
+                                    </div>
+                                </div>
+                            </div>
+                                 <div class = "errorBox">
+
+                                    </form>
+        {{/unless}}
+                    <input type="submit" class="btn btn-success pull-right" value="Register" />
+
+                            </div>
+
+    </div>
+        
+</div>
+ <div id = "err"> {{#if errorMessage}}<div class="alert alert-danger"> <strong>Error:</strong> {{errorMessage}}</div>{{/if}}</div>
